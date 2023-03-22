@@ -1,0 +1,4 @@
+server.port=9000
+# 설정바꾸는 곳
+spring.main.web-application-type=none
+# 마지막 덮어쓰기하는 파일 - 우선순위 설정이 제일 높다.

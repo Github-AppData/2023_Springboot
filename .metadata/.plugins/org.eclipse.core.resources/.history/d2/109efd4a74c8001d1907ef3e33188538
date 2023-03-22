@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>
+			h1{
+				color: red;
+			}
+		</title>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<h1> spring study </h1>
+	</body>
+</html>

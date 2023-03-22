@@ -1,0 +1,10 @@
+package com.rubypaper;
+
+public class student {
+	int num;
+	String name;
+	String dept;
+	float grade;
+	
+	
+}

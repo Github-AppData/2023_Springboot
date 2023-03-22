@@ -1,0 +1,16 @@
+package com.rubypaper.test;
+
+import java.util.Date;
+
+
+public class BoardVO {
+	public BoardVO() {
+		// TODO Auto-generated constructor stub
+	}
+	private int no;
+	private String title;
+	private String writer;
+	private String content;
+	private Date date;
+	private int cnt;
+}

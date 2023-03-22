@@ -1,0 +1,33 @@
+package com.rubypaper.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class BoardController {
+
+	public BoardController() {
+		System.out.println("===> BoardController 생성");
+	}
+	
+	// index처럼 읽어드릴려면,
+	@RequestMapping("/main")
+	@ResponseBody
+	public String name() {
+		String result = "여러분 방가워요";
+		return result;
+	}
+	@RequestMapping (value="/use/main", method = RequestMethod.GET)
+	@ResponseBody
+	public String showMain()
+	{
+		return "유한대학교";
+	}
+	@RequestMapping("/girl")
+	public @ResponseBody String girl()
+	{
+		return "없음";
+	}
+}
