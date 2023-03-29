@@ -1,6 +1,0 @@
-package com.rubypaper.test;
-
-public class BoardVO {
-	int no;
-	String title;
-}

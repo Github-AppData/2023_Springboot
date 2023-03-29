@@ -1,3 +1,0 @@
-server.port=9000
-# 설정바꾸는 곳
-spring.main.web-application-type=none

@@ -1,0 +1,15 @@
+package com.rubypaper.main;
+
+import java.util.Date;
+
+public class BoardVO {
+	
+	private int seq;
+	private String title;
+	private String writer;
+	private String content;
+	private Date date;
+	private int seq;
+	private int seq;
+	
+}
