@@ -1967,3 +1967,49 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.yuhan:mav
 2023-03-29 16:27:26,822 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-29 16:27:26,831 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-03-29 16:27:26,834 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Spring_Study\chapterOne\src\test\resources
+2023-04-03 10:18:50,692 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-03 10:18:56,262 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yuhan:mavenfirst:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\pom.xml.
+2023-04-03 10:18:56,262 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yuhan:mavenfirst:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\pom.xml.
+2023-04-03 10:18:56,650 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-03 10:18:56,651 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\src\main\resources
+2023-04-03 10:18:56,653 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-03 10:18:56,654 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\src\test\resources
+2023-04-03 10:18:57,455 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.yuhan:mavenfirst:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\pom.xml.
+2023-04-03 10:18:57,850 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-03 10:18:57,851 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\src\main\resources
+2023-04-03 10:18:57,853 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-03 10:18:57,854 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\mavenfirst\src\test\resources
+2023-04-03 10:23:59,734 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-03 10:24:00,450 [Worker-5: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:04,085 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:04,384 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rubypaper:chapterOne:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\pom.xml.
+2023-04-03 10:24:04,433 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:04,646 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:04,680 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rubypaper:chapterOne:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\pom.xml.
+2023-04-03 10:24:04,713 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:05,375 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-03 10:24:05,386 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:05,389 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\src\test\resources
+2023-04-03 10:24:05,568 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:05,569 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:05,572 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\src\test\resources
+2023-04-03 10:24:06,587 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rubypaper:chapterOne:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\pom.xml.
+2023-04-03 10:24:06,735 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mavenfirst: com.yuhan:mavenfirst:0.0.1-SNAPSHOT with classifier  to /mavenfirst/target/classes
+2023-04-03 10:24:07,869 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:07,869 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:07,872 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\src\test\resources
+2023-04-03 10:24:15,250 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rubypaper:chapter0-1:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0-1\pom.xml.
+2023-04-03 10:24:15,602 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-03 10:24:15,613 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:15,616 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0-1\src\test\resources
+2023-04-03 10:24:15,877 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.rubypaper:chapter0-1:0.0.1-SNAPSHOT @ C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0-1\pom.xml.
+2023-04-03 10:24:16,689 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:16,689 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:24:16,691 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0-1\src\test\resources
+2023-04-03 10:27:06,019 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:27:06,020 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:27:06,021 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0-1\src\test\resources
+2023-04-03 10:27:06,046 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:27:06,046 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-03 10:27:06,048 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapterOne\src\test\resources
+2023-04-03 11:35:13,386 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
