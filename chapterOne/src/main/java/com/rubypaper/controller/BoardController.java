@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class BoardController {
-	
-	
-	
-	
+		
 	
 	@RequestMapping(value="/hello")
 	@ResponseBody 

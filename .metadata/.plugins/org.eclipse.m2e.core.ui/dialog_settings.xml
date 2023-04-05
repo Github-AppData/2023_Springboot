@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\YUHAN\Documents\GitHub\2023_Springboot\javaCodeDi"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -35,6 +36,7 @@
 			<item value="com.yuhan"/>
 		</list>
 		<list key="artifactId">
+			<item value="board-spring-boot-starter"/>
 			<item value="mavenfirst"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -67,5 +69,11 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="720"/>
+		<item key="y" value="166"/>
 	</section>
 </section>

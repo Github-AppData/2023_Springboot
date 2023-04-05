@@ -13,7 +13,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor*/
-@Data 
+@Data
 public class BoardVO {
 	
 	private int no;
