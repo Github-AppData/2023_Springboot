@@ -1,4 +1,4 @@
-package com.yuhan;
+package com.rubypp;
 
 /**
  * Hello world!

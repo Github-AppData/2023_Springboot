@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0"/>
 			<item value="C:\Users\YUHAN\Documents\GitHub\2023_Springboot\javaCodeDi"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -30,14 +31,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.yuhan"/>
+			<item value="com.rubypp"/>
 		</list>
 		<list key="groupId">
-			<item value="com.yuhan"/>
+			<item value="com.rubypp"/>
 		</list>
 		<list key="artifactId">
 			<item value="board-spring-boot-starter"/>
-			<item value="mavenfirst"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
