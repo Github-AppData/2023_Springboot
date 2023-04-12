@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ktu20\OneDrive\문서\GitHub\2023_Springboot\0412_board"/>
 			<item value="C:\Users\YUHAN\Documents\GitHub\2023_Springboot\chapter0"/>
 			<item value="C:\Users\YUHAN\Documents\GitHub\2023_Springboot\javaCodeDi"/>
 		</list>
@@ -31,12 +40,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.rubypp.board"/>
 			<item value="com.rubypp"/>
 		</list>
 		<list key="groupId">
+			<item value="com.rubypp.board"/>
 			<item value="com.rubypp"/>
 		</list>
 		<list key="artifactId">
+			<item value="board_spring_boot_starter-task"/>
+			<item value="board-spring-boot-starter-task"/>
 			<item value="board-spring-boot-starter"/>
 		</list>
 		<list key="projectNameTemplate">

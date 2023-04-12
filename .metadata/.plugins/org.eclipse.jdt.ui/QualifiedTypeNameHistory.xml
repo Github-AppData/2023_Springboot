@@ -31,4 +31,6 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.rubypp.jdbc.ConnectionManager"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+    <fullyQualifiedTypeName name="com.rubypaper.jdbc.ConnectionManager"/>
 </qualifiedTypeNameHistroy>
