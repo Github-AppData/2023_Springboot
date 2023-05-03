@@ -19,6 +19,6 @@ public class BoardConfiguration {
 		dataSource.setUsername("sa");
 		dataSource.setPassword("");
 		
-		return dataSource();
+		return dataSource;
 	}
 }

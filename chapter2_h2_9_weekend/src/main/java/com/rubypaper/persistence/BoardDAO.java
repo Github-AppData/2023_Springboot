@@ -3,6 +3,7 @@ package com.rubypaper.persistence;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate; // jdbcTemplate 클래스 포함한 라이브러리
 import org.springframework.stereotype.Repository;
 
@@ -10,11 +11,11 @@ import org.springframework.stereotype.Repository;
 public class BoardDAO {
 	// 멤버 변수
 	// Database Source 객체 필요 --> DB 연결하기 위해 접속하기 위한 모든 정보가 들어 있는 곳.
+	@Autowired
 	private JdbcTemplate spring;
 	String s1 = "insert into Board (seq, title, writer, content) values(?,?,?,?)";
-	private final static String BOARD_INSERT = 
-			"insert into Board (seq, title, writer, content) values("
-			+"select nvl(max(seq),0)+1 from board)',?,?,?)"; // 띄워쓰기가 엄청 중요하다.
+	private final static String BOARD_INSERT="insert into Board(seq, title, writer, content) values("
+	+ "(select nvl(max(seq),0)+1 from board),?,?,?)"; // 띄워쓰기가 엄청 중요하다.
 	private static final String BOARD_LIST = "select * from Board order by seq desc"; // 내림차순으로 보여달라.
 
 	

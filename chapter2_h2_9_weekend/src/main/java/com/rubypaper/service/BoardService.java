@@ -23,9 +23,8 @@ public class BoardService implements ApplicationRunner {
 		board.put("title", "SpringBoot jdbc Test !!!");
 		board.put("writer", "hong gildong");
 		board.put("content", "we are the future");
-		
-		// 하나씩 가져오는 것이다.
-		List<Map<String, Object>> boardList = boardDAO.getBoard();
+		boardDAO.insertBoard(board);
+		List<Map<String, Object>> boardList = boardDAO.getBoard(); // 하나씩 가져오는 것이다.
 		for(Map<String, Object> result:boardList){
 				System.out.println("---->"+result.toString());
 		}
