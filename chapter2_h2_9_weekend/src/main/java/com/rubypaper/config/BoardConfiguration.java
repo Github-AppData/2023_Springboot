@@ -10,8 +10,11 @@ import com.zaxxer.hikari.HikariDataSource;
 @Configuration
 public class BoardConfiguration {
 	
+	// 데이터 베이스 연결 설정
 	@Bean
 	DataSource dataSource() {
+		// Database Source 
+		// => DB 연결하기 위해 접속하기 위한 모든 정보가 들어 있는 곳.
 		HikariDataSource dataSource = new HikariDataSource();
 		
 		dataSource.setDriverClassName("org.h2.Driver");
