@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>userdata.html</h2>
+	넘겨온 값을 출력해주마<br>
+	<h3 th:text="'name : ' + ${username} + ' 입니다.'">넘겨온 이름</h3>
+	<h3 th:text="'age : ' + ${age} + ' 입니다.'">넘겨온 나이</h3>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		h2{
+			color : red;
+		}
+	</style>
+</head>
+<body>
+<form action="a.jsp" method="post">
+	<h2 th:text = "${user_name}">name</h2>
+	<h2 th:text = "${user_age}">age</h2>
+	<h2 th:text = "${user_email}">email</h2>
+	<h2 th:text = "${user_hp}">hp</h2>
+	<h2 th:text = "${user_addr}">address</h2>
+</form>
+</body>
+</html>
