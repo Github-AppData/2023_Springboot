@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
-<meta charset="utf-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
 </head>
 <body>
-	<form action="/post/post.html" method="post" target="_blank">
-		<label for = "membername">member name</label>
-			<input type = "text" id="membername" name="membername"> <br>
-		<label for="memberid">memberid</label>
-			<input type= "text" id="memberid" name="memberid"><br>
-		<input type="submit" value="전송" />
+	<!-- 11주차 실습 -->
+	<h1>The form method="POST" demo</h1>
+	<form action="/post" method="POST" target="_black">
+		<label for="membername">member name : </label>
+		<input type="text" id="membername" name="membername">
+		<br>
+		<label for="memberid">member id : </label>
+		<input type="text" id="memberid" name="memberid">
+		<br>
+		<label for="memberemail">member email : </label>
+		<input type="text" id="memberemail" name="memberemail">
+		<input type="submit" value="submit">
+		
 	</form>
+	
 </body>
 </html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>sc3View.html</title>
+	<style>
+		h1{
+			color:red;
+			border:2px dotted blue;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 11 주차 실습 -->
+	<h2 th:text="${userDTO_11.getUserName()}">대체 글자임</h2>
+	<h1 th:text="${userDTO_11.getUserId()}">대체 글자임</h1>
+	<h2 th:text="${userDTO_11.getUserPhone()}">대체 글자임</h2>
+</body>
+</html>
