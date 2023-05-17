@@ -21,7 +21,7 @@ public class BoardService implements ApplicationRunner {
 	public void run(ApplicationArguments args) throws Exception {
 		Map<String, Object> board = new HashMap<String, Object>();
 		board.put("title", "SpringBoot jdbc Test !!!");
-		board.put("writer", "hong gildong");
+		board.put("writer", "dong su");
 		board.put("content", "we are the future");
 		boardDAO.insertBoard(board);
 		List<Map<String, Object>> boardList = boardDAO.getBoard(); // 하나씩 가져오는 것이다.
