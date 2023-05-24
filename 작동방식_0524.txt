@@ -1,0 +1,5 @@
+부르는 순서 (SampleController4_11.java 부터 시작
+
+0. 주소 바에 사용자가 요청 하면, Controller의 있는 요청(GetMapping)과 맞으면, 해당 페이지를 띄워준다.
+1. sc4Form으로 가고
+2. sc4Form의 '전송' 버튼 누르면, 다시 컨트롤러 가서, PostMapping 과 맞으면, return값의 sc4View의 실제주소로 간다.

@@ -3,10 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
+	<style>
+		h1{
+		display:inline;
+		border:2px dotted red;
+		color:blue;
+		}
+	</style>
 </head>
 <body>
 	<!-- 11주차 실습 -->
 	
-	
+	<h1 th:text="${heading}">나 불렀니 ???</h1>
+	<table cellspacing=0 border=1>
+		<tr>
+			<td>username : </td>
+			<td><input type="text" th:value="${userDTO_11.getUserName()}"></td>
+		</tr>
+		<tr>
+			<td>userId : </td>
+			<td><input type="text" th:value="${userDTO_11.getUserId()}"></td>
+		</tr>
+		<tr>
+			<td>userPhone : </td>
+			<td><input type="text" th:value="${userDTO_11.getUserPhone()}"></td>
+		</tr>
+	</table>
 </body>
 </html>

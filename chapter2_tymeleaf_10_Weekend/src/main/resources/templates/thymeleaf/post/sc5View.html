@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3 th:text="${heading}">제목</h3>
+	<p>사용자가 입력한 책 정보</p>
+	<table cellspacing=0 border=1>
+		
+		<tr>
+			<td>Title</td>
+			<td>
+				<input type="text" th:value="${bookDTO1.getTitle()}">
+			</td>
+		</tr>
+		<tr>
+			<td>Author</td>
+			<td>
+				<input type="text" th:value="${bookDTO1.getAuthor()}">
+			</td>
+		</tr>
+		<tr>
+			<td>Publisher</td>
+			<td>
+				<input type="text" th:value="${bookDTO1.getPublisher()}">
+			</td>
+		</tr>
+		<tr>
+			<td>date</td>
+			<td>
+				<input type="text" th:value="${bookDTO1.getDate()}">
+			</td>
+		</tr>
+		
+	</table>
+
+</body>
+</html>

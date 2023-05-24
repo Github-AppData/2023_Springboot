@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1 th:text="${heading}">나 불렀니 ?</h1>
+	<table cellspacing=0 border=1>
+		<tr>
+			<td>username : </td>
+			<td><input type="text" th:value="${userDTO_12.getUserName()}"></td>
+		</tr>
+		<tr>
+			<td>userMbti : </td>
+			<td><input type="text" th:value="${userDTO_12.getUserMbti()}"></td>
+		</tr>
+		<tr>
+			<td>userGender : </td>
+			<td><input type="text" th:value="${userDTO_12.getUserGender()}"></td>
+		</tr>
+		<tr>
+			<td>userAge : </td>
+			<td><input type="text" th:value="${userDTO_12.getUserAge()}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
